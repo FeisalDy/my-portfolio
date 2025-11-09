@@ -1,0 +1,18 @@
+<svg width="600" height="360" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title>Design System Accelerator Cover</title>
+  <desc>Abstract representation of a design system workflow</desc>
+  <rect width="600" height="360" rx="32" fill="#0F172A" />
+  <g transform="translate(70 60)">
+    <rect x="0" y="0" width="460" height="160" rx="20" fill="#1E293B" />
+    <rect x="28" y="32" width="120" height="48" rx="12" fill="#38BDF8" opacity="0.85" />
+    <rect x="180" y="32" width="120" height="48" rx="12" fill="#F472B6" opacity="0.85" />
+    <rect x="332" y="32" width="72" height="48" rx="12" fill="#FACC15" opacity="0.85" />
+    <rect x="28" y="104" width="224" height="20" rx="10" fill="#334155" />
+    <rect x="268" y="104" width="160" height="20" rx="10" fill="#334155" />
+  </g>
+  <g transform="translate(102 240)">
+    <rect x="0" y="0" width="396" height="80" rx="20" fill="#1E293B" />
+    <rect x="28" y="24" width="180" height="16" rx="8" fill="#38BDF8" />
+    <rect x="228" y="24" width="120" height="16" rx="8" fill="#334155" />
+  </g>
+</svg>

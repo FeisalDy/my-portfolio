@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  font-family: var(--font-inter), sans-serif;
+}
+
+a {
+  @apply text-sky-300 transition-colors duration-200;
+}
+
+a:hover,
+a:focus-visible {
+  @apply text-sky-200;
+}
+
+.prose {
+  @apply max-w-3xl text-lg leading-relaxed text-slate-200;
+}
+
+.prose h2,
+.prose h3,
+.prose h4 {
+  @apply mt-10 font-semibold text-slate-50;
+}
+
+.prose p {
+  @apply mt-4 text-slate-200;
+}
+
+.prose ul {
+  @apply mt-4 list-disc space-y-2 pl-6 text-slate-200;
+}
+
+.prose ol {
+  @apply mt-4 list-decimal space-y-2 pl-6 text-slate-200;
+}
+
+.prose li {
+  @apply leading-relaxed;
+}
+
+.prose code {
+  @apply rounded-md bg-slate-900 px-2 py-1 text-sm text-sky-300;
+}
+
+.prose pre {
+  @apply mt-6 overflow-auto rounded-2xl bg-slate-900 p-6 shadow-lg;
+}
+
+.prose img {
+  @apply my-8 w-full rounded-2xl shadow-xl;
+}
+
+.glass-panel {
+  @apply rounded-3xl border border-white/10 bg-white/5 shadow-2xl backdrop-blur;
+}
+
+.fade-in {
+  animation: fade-in 0.4s ease-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
