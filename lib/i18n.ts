@@ -8,7 +8,7 @@ const dictionary = {
         locale: "en" as const,
         hero: {
             name: "Feisal Dharma Yuda",
-            role: "Frontend Developer",
+            role: "Web Developer",
             tagline: "Build scalable systems with clean code and clear structure.",
             ctaAbout: "More about me",
             ctaProjects: "View project",
@@ -30,9 +30,9 @@ const dictionary = {
             note: "Built with Next.js and Tailwind CSS",
         },
         metadata: {
-            homeTitle: "Feisal Dharma Yuda | Frontend Developer",
+            homeTitle: "Feisal Dharma Yuda | Web Developer",
             homeDescription:
-                "Frontend-focused developer blending clean architecture with delightful user experience.",
+                "Web developer blending clean architecture with delightful user experience.",
             aboutTitle: "About Feisal Dharma Yuda",
             aboutDescription:
                 "Learn about Feisal Dharma Yuda’s journey, skills, and development philosophy.",
@@ -54,7 +54,7 @@ const dictionary = {
         locale: "id" as const,
         hero: {
             name: "Feisal Dharma Yuda",
-            role: "Frontend Developer",
+            role: "Web Developer",
             tagline: "Membangun sistem yang skalabel dengan kode yang bersih dan struktur yang jelas.",
             ctaAbout: "Kenali saya",
             ctaProjects: "Lihat proyek",
@@ -76,9 +76,9 @@ const dictionary = {
             note: "Dibangun dengan Next.js dan Tailwind CSS",
         },
         metadata: {
-            homeTitle: "Feisal Dharma Yuda | Frontend Developer",
+            homeTitle: "Feisal Dharma Yuda | Web Developer",
             homeDescription:
-                "Pengembang frontend yang memadukan arsitektur bersih dan pengalaman pengguna yang solid.",
+                "Pengembang web yang memadukan arsitektur bersih dan pengalaman pengguna yang solid.",
             aboutTitle: "Tentang Feisal Dharma Yuda",
             aboutDescription:
                 "Pelajari perjalanan, keterampilan, dan filosofi pengembangan Feisal Dharma Yuda.",

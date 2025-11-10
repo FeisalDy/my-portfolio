@@ -139,7 +139,7 @@ export default async function ProjectPage({ params }: PageParams) {
             href={project.frontmatter.demo}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-sky-400 px-5 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/20 transition hover:shadow-cyan-400/30"
+            className="inline-flex items-center gap-2 rounded-full bg-sky-400 px-5 py-3 text-sm font-semibold text-slate-950! shadow-lg shadow-cyan-500/20 transition hover:shadow-cyan-400/30"
           >
             {dictionary.actions.viewDemo}
             <span aria-hidden>↗</span>

@@ -10,11 +10,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://feisaldy.dev"),
   title: {
-    default: "Feisal Dharma Yuda | Frontend Developer",
+    default: "Feisal Dharma Yuda | Web Developer",
     template: "%s | Feisal Dharma Yuda",
   },
   description:
-    "Portfolio of Feisal Dharma Yuda, a frontend developer who builds scalable systems with clean code and clear structure.",
+    "Portfolio of Feisal Dharma Yuda, a web developer who builds scalable systems with clean code and clear structure.",
   alternates: {
     canonical: "/en",
     languages: {
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Feisal Dharma Yuda Portfolio",
-    title: "Feisal Dharma Yuda | Frontend Developer",
+    title: "Feisal Dharma Yuda | Web Developer",
     description:
-      "Portfolio of Feisal Dharma Yuda, a frontend developer who builds scalable systems with clean code and clear structure.",
+      "Portfolio of Feisal Dharma Yuda, a web developer who builds scalable systems with clean code and clear structure.",
     images: [
       {
         url: "/images/og-default.svg",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Feisal Dharma Yuda | Frontend Developer",
+    title: "Feisal Dharma Yuda | Web Developer",
     description:
       "Clean, maintainable, and scalable systems crafted by Feisal Dharma Yuda.",
     creator: "@feisaldy",
