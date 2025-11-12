@@ -9,7 +9,7 @@ Saya seorang pengembang website yang membangun pengalaman digital dengan pendeka
 
 ## Apa yang Saya Kerjakan
 
-- **Rekayasa frontend:** Saya merancang antarmuka yang modular dan berperforma tinggi menggunakan ekosistem **React** (React, Next.js, TanStack Start) maupun **Angular**, dengan pendekatan berbasis TypeScript untuk menjaga konsistensi dan skalabilitas kode. Fokus saya adalah menciptakan struktur komponen yang mudah dirawat, efisien, dan siap untuk skala besar..
+- **Rekayasa frontend:** Saya merancang antarmuka yang modular dan berperforma tinggi menggunakan ekosistem **React** (React, Next.js, TanStack Start) maupun **Angular**, dengan pendekatan berbasis **TypeScript** untuk menjaga konsistensi dan skalabilitas kode. Fokus saya adalah menciptakan struktur komponen yang mudah dirawat, efisien, dan siap untuk skala besar.
 - **Dukungan backend:** Saya merancang dan mengembangkan layanan backend menggunakan **Node.js (Express)** maupun **Go (Gin)**, dengan perhatian khusus pada komunikasi antar sistem dan keandalan pemrosesan data. Pendekatan saya menekankan arsitektur yang ringan namun tangguh, mendukung integrasi antarlayanan dan skalabilitas sistem. Salah satu proyek saya melibatkan integrasi **RabbitMQ** untuk menghubungkan sistem web dengan perangkat **IoT**, memastikan aliran data yang stabil, sinkron, dan real-time.
 - **Arsitektur & desain sistem:** Saya memetakan dependensi antar fitur, merancang alur data yang efisien, dan menentukan batas sistem agar tetap **modular, skalabel, dan mudah dikembangkan** oleh tim di masa depan.
 

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllProjectSlugs, getProject } from "@/lib/content";
 import { getDictionary, isLocale, Locale } from "@/lib/i18n";
+import { NewsDropdown } from "@/components/NewsDropdown";
 
 const OG_IMAGE = "/images/og-default.svg";
 
@@ -71,6 +72,7 @@ export default async function ProjectPage({ params }: PageParams) {
   const locale = resolved.locale as Locale;
   const dictionary = getDictionary(locale);
   const project = await getProject(locale, resolved.slug);
+  const newsLinks = project.frontmatter.news ?? [];
   const date = new Date(project.frontmatter.date).toLocaleDateString(
     locale === "id" ? "id-ID" : "en-US",
     {
@@ -83,12 +85,14 @@ export default async function ProjectPage({ params }: PageParams) {
   return (
     <div className="mx-auto w-full max-w-4xl space-y-12 px-6 pb-24 pt-12 sm:px-12">
       <div className="space-y-6">
-        <Link
-          href={`/${locale}`}
-          className="text-sm text-slate-400 transition hover:text-sky-300"
-        >
-          ← {dictionary.actions.backToProjects}
-        </Link>
+        <div>
+          <Link
+            href={`/${locale}#projects`}
+            className="text-sm text-slate-400 transition hover:text-sky-300"
+          >
+            ← {dictionary.actions.backToProjects}
+          </Link>
+        </div>
         <div className="space-y-4">
           <h1 className="text-4xl font-semibold text-slate-50">
             {project.frontmatter.title}
@@ -133,7 +137,7 @@ export default async function ProjectPage({ params }: PageParams) {
         dangerouslySetInnerHTML={{ __html: project.html }}
       />
 
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap items-center gap-4">
         {project.frontmatter.demo ? (
           <a
             href={project.frontmatter.demo}
@@ -156,6 +160,7 @@ export default async function ProjectPage({ params }: PageParams) {
             <span aria-hidden>↗</span>
           </a>
         ) : null}
+        {newsLinks.length > 0 ? <NewsDropdown links={newsLinks} /> : null}
       </div>
     </div>
   );

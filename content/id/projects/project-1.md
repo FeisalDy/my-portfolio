@@ -6,6 +6,11 @@ cover: "/images/project-design-system.svg"
 tags: ["Next.js", "Tailwind", "Design Systems"]
 demo: "https://example.com/design-system"
 repo: "https://github.com/FeisalDy/design-system-accelerator"
+news:
+  - label: "Design Weekly: Mempercepat konsistensi UI skala besar"
+    url: "https://example.com/news/design-weekly"
+  - label: "Product Ops Podcast: Mengirim fitur lebih cepat dengan sistem bersama"
+    url: "https://example.com/news/product-ops-podcast"
 ---
 
 Akselerator Design System menghadirkan tooling dan dokumentasi yang dibutuhkan tim untuk membangun frontend secara konsisten tanpa mengorbankan kecepatan. Saya merancang library komponen yang dapat digunakan ulang dengan token desain tematik, mendukung berbagai framework, dan dokumentasi otomatis.

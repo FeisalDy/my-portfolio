@@ -1,7 +1,7 @@
 export const SUPPORTED_LOCALES = ["en", "id"] as const;
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 
-export const DEFAULT_LOCALE: Locale = "en";
+export const DEFAULT_LOCALE: Locale = "id";
 
 const dictionary = {
     en: {
@@ -20,7 +20,7 @@ const dictionary = {
         },
         projects: {
             heading: "Selected Projects",
-            fallbackBadge: "English version",
+            fallbackBadge: "Indonesia version",
             empty: "Projects are on the way. Check back soon!",
         },
         about: {
@@ -48,6 +48,7 @@ const dictionary = {
             backToProjects: "Back to projects",
             viewDemo: "Visit demo",
             viewRepo: "View repository",
+            viewNews: "View news",
         },
     },
     id: {
@@ -94,6 +95,7 @@ const dictionary = {
             backToProjects: "Kembali ke proyek",
             viewDemo: "Lihat demo",
             viewRepo: "Lihat repositori",
+            viewNews: "Lihat berita",
         },
     },
 };

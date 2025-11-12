@@ -7,9 +7,9 @@ tags: ["TypeScript", "WebSockets", "Edge"]
 demo: "https://example.com/logistics"
 repo: "https://github.com/FeisalDy/realtime-logistics-dashboard"
 news:
-  - label: "Supply Chain Today: How realtime dashboards cut downtime"
+  - label: "Supply Chain Today: Dashboard realtime yang kurangi downtime"
     url: "https://example.com/news/supply-chain-today"
-  - label: "Product Hunt: Realtime logistics toolkit launch"
+  - label: "Product Hunt: Peluncuran toolkit logistik realtime"
     url: "https://example.com/news/product-hunt-logistics"
 ---
 

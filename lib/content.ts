@@ -37,6 +37,10 @@ export type ProjectFrontmatter = {
     tags?: string[];
     demo?: string;
     repo?: string;
+    news?: Array<{
+        label: string;
+        url: string;
+    }>;
 };
 
 export type ProjectSummary = {
@@ -149,6 +153,7 @@ export async function getProjectsSummary(locale: Locale): Promise<ProjectSummary
                 frontmatter: {
                     ...project.frontmatter,
                     tags: project.frontmatter.tags ?? [],
+                    news: project.frontmatter.news ?? [],
                 },
                 localeUsed: project.localeUsed,
                 isFallback: project.isFallback,

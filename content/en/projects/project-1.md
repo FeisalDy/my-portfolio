@@ -6,6 +6,11 @@ cover: "/images/project-design-system.svg"
 tags: ["Next.js", "Tailwind", "Design Systems"]
 demo: "https://example.com/design-system"
 repo: "https://github.com/FeisalDy/design-system-accelerator"
+news:
+  - label: "Design Weekly: Accelerating UI consistency at scale"
+    url: "https://example.com/news/design-weekly"
+  - label: "Product Ops Podcast: Shipping faster with shared systems"
+    url: "https://example.com/news/product-ops-podcast"
 ---
 
 The Design System Accelerator project delivers the tooling and documentation needed for teams to build consistent frontends without slowing down delivery. I architected a reusable component library with thematic design tokens, cross-framework support, and automated documentation.
