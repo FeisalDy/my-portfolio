@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://feisaldy.dev"),
   title: {
-    default: "Feisal Dharma Yuda | Web Developer",
+    default: "Web Developer",
     template: "%s | Feisal Dharma Yuda",
   },
   description:
