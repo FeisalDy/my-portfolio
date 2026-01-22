@@ -1,10 +1,10 @@
-# Feisal Dharma Yuda — Multilingual Portfolio# Feisal Dharma Yuda — Multilingual Portfolio# Feisal Dharma Yuda — Multilingual Portfolio# Feisal Dharma Yuda — Multilingual Portfolio
+# Feisal Dharma Yuda — Multilingual Portfolio
 
-Static, SEO-friendly portfolio powered by Next.js App Router, Tailwind CSS, and Markdown content. English (`/en`) is the default locale with Indonesian (`/id`) available; when localized Markdown is missing the site falls back to English automatically.Static, SEO-ready portfolio built with Next.js App Router, Tailwind CSS, and Markdown content sourced from the filesystem. English (`/en`) is the default locale with Indonesian (`/id`) available and automatic fallback when a translation is missing.Static, SEO-ready portfolio built with Next.js App Router, Tailwind CSS, and Markdown content sourced from the filesystem. English (`/en`) is the default locale with Indonesian (`/id`) available and automatic fallback when a translation is missing.Static, SEO-ready portfolio built with Next.js App Router, Tailwind CSS, and Markdown content sourced from the filesystem. English (`/en`) is the default locale with Indonesian (`/id`) available and automatic fallback when translations are missing.
+Static, SEO-friendly portfolio powered by Next.js App Router, Tailwind CSS, and Markdown content. Indonesia (`/id`) is the default locale with English (`/en`) available; when localized Markdown is missing the site falls back to Indoensia automatically.Static, SEO-ready portfolio built with Next.js App Router, Tailwind CSS, and Markdown content sourced from the filesystem. English (`/en`) is the default locale with Indonesian (`/id`) available and automatic fallback when a translation is missing.Static, SEO-ready portfolio built with Next.js App Router, Tailwind CSS, and Markdown content sourced from the filesystem. English (`/en`) is the default locale with Indonesian (`/id`) available and automatic fallback when a translation is missing.Static, SEO-ready portfolio built with Next.js App Router, Tailwind CSS, and Markdown content sourced from the filesystem. English (`/en`) is the default locale with Indonesian (`/id`) available and automatic fallback when translations are missing.
 
 ## Features## Features## Features
 
-- Locale-aware routing with `/en` and `/id`, plus browser language detection from `/`- Locale-aware routing with `/en` and `/id`, plus browser-language detection from `/`## Features
+- Locale-aware routing with `/id` and `/en`, plus browser language detection from `/`- Locale-aware routing with `/id` and `/en`, plus browser-language detection from `/`## Features
 
 - Markdown-driven About and Project pages with frontmatter metadata
 
@@ -26,7 +26,7 @@ npm run dev- 100% static export compatible with Vercel hosting```bash
 
 ## Local Development- Automatic fallback to English Markdown when a localized file is unavailable## Content Management
 
-Visit `http://localhost:3000`. Navigating to `/` redirects to `/en` or `/id` depending on `navigator.language`.
+Visit `http://localhost:3000`. Navigating to `/` redirects to `/id` or `/en` depending on `navigator.language`.
 
 - Sitemap, `hreflang` alternates, and social metadata generated via the Next.js Metadata API
 
@@ -52,7 +52,7 @@ npm run dev
 
 ### Project Entries
 
-Open `http://localhost:3000` in your browser. Visiting `/` redirects to `/en` or `/id` based on `navigator.language`.```bash- Edit `content/en/about.md`. Optional translations live in `content/id/about.md`.
+Open `http://localhost:3000` in your browser. Visiting `/` redirects to `/id` or `/en` based on `navigator.language`.```bash- Edit `content/en/about.md`. Optional translations live in `content/id/about.md`.
 
 1. Add a file in `content/en/projects/<slug>.md` using the schema below.
 
@@ -92,7 +92,7 @@ Markdown body content...- Optional translation: `content/id/about.md`.
 
 `````
 
-- Supported frontmatter keys: `title`, `description`.Open `http://localhost:3000` in your browser. Visiting `/` redirects to `/en` or `/id` based on `navigator.language`.
+- Supported frontmatter keys: `title`, `description`.Open `http://localhost:3000` in your browser. Visiting `/` redirects to `/id` or `/en` based on `navigator.language`.
 
 Projects appear automatically for both locales. Any number of `news` links are collapsed into a single "View News" dropdown on the project detail page.
 
@@ -326,11 +326,3 @@ project-1.md
 ## Notes
 
 Placeholder assets live under `public/images/`. Replace them with production-ready visuals before launching.
-
-## License
-
-MIT — adapt and extend freely.
-
-```
-
-```
